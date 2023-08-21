@@ -1,0 +1,29 @@
+.head{
+background-image: url(./CSS-background-gradient-featured.avif);
+padding: 20px;
+border-radius: 8px;
+}
+
+.heading
+{ 
+    /* font-family: 'Permanent Marker'; */
+    /* font-size: xx-large; */
+    /* color:darkblue;
+    background-color: aqua; */
+    padding: 30px;
+    border-radius: 8px;
+    border-color: #fff;
+    border-style: solid;
+    width: 600px;
+    text-align: center;
+}
+
+
+.para{
+    font-size: large;
+    font-weight: 400;
+
+} 
+
+
+    
