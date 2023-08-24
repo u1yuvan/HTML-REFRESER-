@@ -83,5 +83,85 @@ border-radius: 8px;
     border-radius: 8px;
     background-color: red;
 }
+.Positions h1{
+    text-shadow: 2px 2px orangered;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Positions{
+     background-color: darkslategrey;
+     color: aqua;
+     padding: 20px;
+     border-radius: 8px;
 
-    
+    }
+    .static{
+        position: static;
+        border: 3px solid greenyellow;
+    }
+
+    .relative{
+        position: relative;
+        border: 3px solid greenyellow;
+        left: 30%;
+
+    }
+
+    .fixed{
+        position: fixed;
+        bottom: 0px;
+        left: 0%;
+        width: 100%;
+        text-align: center;
+        background-color:darkslategray;
+        border: 3px solid lightblue;
+        border-radius: 5px;
+    }
+    .sticky{
+        position: sticky;
+        top: 0%;
+        text-align: center;
+        background-color:blue;
+        border: 3px solid lightblue;
+        color: aqua;
+        border-radius: 5px;
+        width: 400px;
+        margin-left: 36%;
+    }
+
+    .relatives{
+        position: relative;
+        /* border: 3px solid lightblue; */
+        left: 40%;
+        width: 400px;
+        text-align: center;
+        height: 400px;
+
+    }
+    .absolute{
+        position: absolute;
+        top: 80px;
+        right: 0%;
+        border: 3px solid lightblue;
+    }
+    .float h1{
+
+        color: white;
+        text-shadow:2px 2px black;
+    }
+    .float{
+        /* text-align: center; */
+        border-color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: large;
+        background-color: cornflowerblue;
+        margin-top: 250px;
+        margin-bottom: 250px;
+        padding: 20px;
+        border-radius: 8px;
+
+    }
+    .float > img{
+        float: left;
+        padding: 30px;
+    }
