@@ -165,3 +165,50 @@ border-radius: 8px;
         float: left;
         padding: 30px;
     }
+
+
+    .PsuedoElements{
+        text-align: justify;
+        border-color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: large;
+        background-color: cornflowerblue;
+        margin-top: 250px;
+        margin-bottom: 250px;
+        padding: 20px;
+        border-radius: 8px;
+        /* color: white; */
+        /* text-shadow:2px 2px black; */
+    }
+    .PsuedoElements > img{
+        float: left;
+        padding: 20px;
+        margin-right: 20px;
+    }
+
+    .PsuedoElements > p::first-letter{
+        color: red;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .PsuedoElements > h1::after{
+        content: ":)";
+    }
+
+    .PsuedoElements > h1::before{
+        content: "(//)";
+    }
+
+    .opacity > img{
+        opacity: 0.7;
+        width: 600px;
+        margin-left: 475px;
+    }
+
+    .opacity > :hover{
+        opacity: 1;
+    }
+
+    span[title]{
+    color: blueviolet;
+    } 
